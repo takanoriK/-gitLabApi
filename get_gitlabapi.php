@@ -1,9 +1,5 @@
 <?php
 
-$exec = new GetGitLabApiLabels();
-$exec->main();
-
-
 class GetGitLabApiLabels {
     const PRIVATE_TOKEN = 'mytoken';
 
